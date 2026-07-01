@@ -52,7 +52,7 @@ const projectData = [
           description: "Designed, built, and deployed a fully functional responsive Portfolio website.",
           image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
           tags: ["HTML5 / CSS3", "Vanilla JS", "React", "Mobile First UI"],
-          githubUrl: "https://shankaliveson.github.io/Northwind-Dashboard-Project/"
+          githubUrl: "https://shankaliveson.github.io/MY-PORTFOLIO-PROJECT/"
         }
 ];
 
