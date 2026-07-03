@@ -5,8 +5,8 @@ const projectData = [
     title: "Constellation, Algorithmic Vector Matchmaker Engine",
     category: "DATA PIPELINE INTERFACE",
     description: "Automated match logic engine consuming live Google Forms data schemas to map precise structural affinity nodes between entries without processing lag.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    tags: ["Form Architecture", "Matching Matrix", "Data Pipelines"],
+    image: "https://plus.unsplash.com/premium_photo-1719575633395-68e2684f017a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Form Architecture", "Matching Matrix", "Data Pipelines", "Javascript"],
     githubUrl: "https://shankaliveson.github.io/Constellation-virtual-matchmaking-Project/"
   },
   {
@@ -15,20 +15,29 @@ const projectData = [
     category: "E-COMMERCE ENTERPRISE",
     description: "High-throughput retail environment designed with a deep dark aesthetic, reactive state tracking across product inventories, and instantaneous filtering matrices.",
     image: "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=800&q=80",
-    tags: ["State Infrastructure", "UX Architecture", "Dynamic Cart"],
+    tags: ["State Infrastructure", "UX Architecture", "Dynamic Cart", "Javascript"],
     githubUrl: " https://shankaliveson.github.io/E-COMMERCE-PROJECT-NEXUS-/"
   },
   {
-    id: 3,
-    title: "Vogue Apparel Hub & Studio",
-    category: "LUXURY RETAIL STOREFRONT",
-    description: "An immersive digital fashion experience focusing on smooth visual layout transformations, micro-interactions, and high-performance asset distribution.",
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
-    tags: ["Media Layouts", "Responsive Matrix", "Visual Design"],
-    githubUrl: "https://github.com/SHANKALIVESON"
-  },
+      id: 3,
+      title: "SHANKA'S COUTURE",
+      category: "LUXURY RETAIL STOREFRONT",
+      description: "An immersive digital fashion experience focusing on smooth visual layout transformations, micro-interactions, and high-performance asset distribution.",
+      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
+      tags: ["Media Layouts", "Responsive Matrix", "Visual Design", "Html", "React"],
+      githubUrl: " https://shankaliveson.github.io/Fashion-E-commerce-Project/"
+    },
   {
     id: 4,
+    title: "SHANKA'S LUXURY",
+    category: "Demo Website",
+    description: "An immersive digital fashion experience focusing on smooth visual layout transformations, micro-interactions, and high-performance asset distribution.",
+    image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Media Layouts", "Responsive Matrix", "Visual Design", "Html"],
+    githubUrl: "https://shankaliveson.github.io/DEMO-FASHION-WEBSITE/"
+  },
+  {
+    id: 5,
     title: "Teez Café Web Environment",
     category: "LIVE PRODUCTION WORK",
     description: "Designed, built, and deployed a fully functional responsive business website live in production serving real-world customers.",
@@ -37,20 +46,20 @@ const projectData = [
     githubUrl: "https://teezcafeng.com"
   },
   {
-      id: 5,
+      id: 6,
       title: "Northwind Dashboard Project",
       category: "Dashboard",
       description: "Designed, built, and deployed a fully functional responsive Dashboard website.",
-      image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
       tags: ["HTML5 / CSS3", "Vanilla JS", "Mobile First UI"],
       githubUrl: "https://shankaliveson.github.io/Northwind-Dashboard-Project/"
     },
     {
-          id: 6,
+          id: 7,
           title: "My Portfolio Project",
           category: "Portfolio",
           description: "Designed, built, and deployed a fully functional responsive Portfolio website.",
-          image: "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+          image: "https://images.unsplash.com/photo-1657812159055-7bae416f386d?q=80&w=944&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ",
           tags: ["HTML5 / CSS3", "Vanilla JS", "React", "Mobile First UI"],
           githubUrl: "https://shankaliveson.github.io/MY-PORTFOLIO-PROJECT/"
         }
@@ -101,7 +110,7 @@ function About() {
         <div className="about-image-frame-wrapper">
           <div className="about-image-container">
             <img
-              src="My Potrait Pic.jpeg"
+              src="./images/My Potrait Pic.jpeg"
               alt="Oloruntele Orungbeja"
               className="about-image"
               onError={(e) => {
@@ -109,7 +118,7 @@ function About() {
               }}
             />
           </div>
-          <div className="image-border-accent"></div>
+          <div className=""></div>
         </div>
         <div className="about-text">
           <p className="about-lead">
